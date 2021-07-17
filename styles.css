@@ -1,0 +1,304 @@
+/*  ===> Jai Shree Krishna <===
+@author -> Ashish Sharma
+Website -> Aeshtech.com
+==>> Showcase work for Action of India Internship <====
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background: #91AA8D;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 3px dimgrey;
+    z-index: 1000;
+}
+
+nav img {
+    float: left;
+    width: 90px;
+}
+
+nav h1, nav h3 {
+    display: inline-block;
+}
+
+nav h1, nav h3 {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 5px;
+    text-shadow: 1px 1px 2px rgb(255 255 255 / 50%);
+}
+
+nav h3 {
+    font-size: 20px;
+}
+
+.epr-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 55% 45% 84% 16% / 55% 38% 62% 45%;
+    background-image: url("res/vivek2.jpg");
+    background-position-x: center;
+    background-position-y: 10%;
+    border: 2px solid greenyellow;
+    box-shadow: -3px 5px 10px springgreen;
+    position: absolute;
+    top: 3vh;
+    right: 7em;
+}
+
+.section1 {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: flex-start;
+    align-items: flex-start;
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+.skewed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient( 372deg, rgba(39, 241, 7, 0.25), rgb(145, 170, 141));
+    z-index: -10;
+    transform: skewY( -20deg);
+    transform-origin: top left;
+}
+.about-epr{
+    margin: 45vh 30px 0;
+    width: 70%;
+    padding: 10px;
+}
+.about-epr:hover{
+    box-shadow: 5px 5px 20px darkgray;
+}
+.about-epr ul,.about-epr-company ul{
+    list-style-type: disclosure-closed;
+}
+.about-epr h1, .epr-company-logo h1, .section5 h1{
+    font-weight: 300;
+    color: #405068;
+    font-size: 27px;
+}
+.about-epr li,.about-epr-company ul li{
+    font-size: 17px;
+    color: #405068;
+}
+.about-epr h1 strong, .epr-company-logo h1 strong{
+    text-decoration: underline;
+}
+.about-epr h4{
+    color: #405068;
+    margin-left: 20px;
+}
+.about-epr i{
+    margin-right: 10px;
+}
+.grid1{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.epr-company-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.epr-company-logo img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 10px black);
+}.about-epr-company{
+    box-shadow: 3px 3px 30px grey;
+    padding-top: 20px;
+}
+.epr-company-logo figure{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+.section2{
+    background-color: #b0d7a9;
+    padding: 0px 5px 10vh;
+    margin-top: -10px;
+}
+.section3{
+    background: linear-gradient(351deg,#ffffff, #b0d7a9);
+    padding: 10vh 0;
+    text-align: center;
+}
+.section3 h1{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 27px;
+    color: white;
+    background: #91AA8D;
+    padding: 1vh 5vh;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(255 255 255 / 50%);
+}
+.responsive-slick-slider{
+    width: 100%;
+    margin: auto;
+}
+.slick-slide img{
+    display: unset;
+}
+.slick-list{
+    background: linear-gradient(45deg,#b0d7a9, transparent);
+}
+.slick-dots li button:before{
+    font-size: 45px;
+    background-color: transparent;
+    color: black;
+}
+.section4 {
+    min-height: 434px;
+    background: url(res/bg-parallax-vision.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: center 25.4px;
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+}
+.spikes {
+    position: relative;
+  }
+  
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 25px;
+    background-size: 25px 100%;
+    background-image: linear-gradient(135deg, #87ac38 25%, transparent 25%), linear-gradient(225deg, #8aa52d 25%, transparent 25%);
+    background-position: 0 0;
+  }
+.section4 .afi-title{
+    background: #40506875;
+    padding:10px;
+    display: inline-block;
+    margin: 5vh 0;
+}
+.section4 h1{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+.afi-para p{
+    font-size: 28px;
+}
+.section5 h1{
+    text-align: center;
+}
+.section5{
+    margin: 10vh 0 0;
+}
+.section5 .profile{
+    display: flex;
+    justify-content: center;
+}
+.section5 [class*="card"]{
+    text-align: center;
+    margin: 20vh 3vh 0;
+    padding: 10px;
+}
+.section5 .name{
+    font-size: 24px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.section5 .title{
+    font-size: 18px;
+    margin: 0 0 40px 0;
+    font-weight: 300;
+}
+.section5 .slick-dots{
+    background: linear-gradient(45deg,#b0d7a9, transparent);
+}
+.triangle {
+    position: relative;
+  }
+  
+  .triangle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 100px 0 100px;
+    border-color: #ffffff transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    z-index: 10;
+  }
+
+  footer{
+    background-color: #91AA8D;
+    min-height: 10vh;
+    text-align: center;
+    font-size: 18px;
+    margin: -5px auto;
+    padding-top: 32px;
+  }
+
+  .section3 .slick-next, .section5 .slick-next{
+    display: none!important;
+  }
+
+
+
+
+
+
+/* ==========Media Queries=============== */
+@media (max-width: 800px) {
+    .section1 {
+        align-items: center;
+    }
+    .epr-pic{
+        width: 240px;
+        height: 240px;
+        right: 45px;
+    }
+    .grid1{
+        grid-template-columns: 100% ;
+    }
+    .about-epr{
+        margin: 40vh auto 0;
+        width: 95%;
+    }
+    nav img{
+        width: 70px;
+        margin-top: 10px;
+    }
+    nav h1, nav h3{
+        font-size: 15px;
+    }
+  }
